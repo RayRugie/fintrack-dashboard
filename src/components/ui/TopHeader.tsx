@@ -10,7 +10,7 @@ interface TopHeaderProps {
 
 const TopHeader: React.FC<TopHeaderProps> = React.memo(({ onMenuClick }) => {
   return (
-    <header className="bg-white px-2 sm:px-6 py-4 w-full">
+    <header className="bg-white px-2 sm:px-6 py-4 w-screen">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-1 sm:space-x-4">
           <button
