@@ -22,7 +22,7 @@ const Dashboard: React.FC = React.memo(() => {
   );
 
   return (
-    <div className="min-h-screen w-full bg-gray-50 flex flex-col overflow-hidden">
+    <div className="min-h-screen w-full bg-white flex flex-col overflow-hidden">
       <TopHeader onMenuClick={() => setIsSidebarOpen(prev => !prev)} />
 
       {/* Main content area */}
