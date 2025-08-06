@@ -1,4 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A modern financial dashboard built with Next.js, TypeScript, and Tailwind CSS that displays wallet transactions and financial summaries.
+
+![Dashboard Preview](public/preview.png)
+
+## Features
+
+- **Dashboard Overview**
+  - Summary cards for total balance, credits, debits, and transaction count
+  - Percentage change indicators
+  - User avatars section
+- **Transaction Management**
+  - Sortable transaction table by date
+  - Color-coded transaction types (credit/debit)
+  - Responsive design for all screen sizes
+- **UI Components**
+  - Custom navigation header with search
+  - Tab-based navigation
+  - Interactive elements with hover states
+  - Modern icons from Lucide
+
+## Technologies Used
+
+- Next.js 15.4.5 (App Router)
+- React 19.1.0
+- TypeScript 5
+- Tailwind CSS 4
+- Lucide React 0.536.0 (for icons)
+- clsx 2.1.1 (for conditional class names)
+
 
 ## Getting Started
 
